@@ -10,7 +10,9 @@ li{
     list-style: none;
     box-sizing: border-box;
 }
-
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .container{
     max-width: 1170px;
     width: 100%;
@@ -19,3 +21,77 @@ li{
 
 /* Default css styles end */
 
+/* Header section start */
+header{
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.headerLogo{
+    padding: 10px 20px;
+    color: #262626;
+    transition: .4s;
+    font-size: 20px;
+}
+.headerLogo .headerTitle{
+    color: rgb(38, 38, 38);;
+    font-weight: normal;
+    font-size: 20px;
+}
+.headerLogo:hover{
+    background-color: #ccc;
+}
+.headerLogo span{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+ 
+.headerMenu ul li{
+    padding: 10px 20px;
+    transition: .4s;
+}
+.headerMenu ul li:hover{
+    background-color: #ccc;
+    color: black;
+}
+.headerMenu ul li a{
+    font-size: 20px;
+    color: #262626;
+   
+}
+/* Header section end */
+
+/* Banner Section start */
+.banner_section{
+    background-image: url('../img/architect.jpg');
+    height: 90vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   position: relative;
+   /* opacity: .7; */
+}
+.bannerTitle{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    font-size: 40px;
+    color: #f1f1f1;
+    font-weight: normal;
+}
+.brTitle{
+    color: #D6D8D9;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: black;
+    padding: 7px;
+}
+ 
+/* Banner Section end */

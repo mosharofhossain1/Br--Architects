@@ -1,0 +1,25 @@
+@media screen and (max-width: 576px) {
+    .headerContainer .headerMenu{
+        display: none;
+    }
+    .artchitacTitle{
+        display: none;
+    }
+}
+@media screen and (min-width: 577px) {
+    .headerContainer{
+        display: flex;
+        justify-content: space-between;
+     }
+     .headerMenu ul{
+        display: flex;
+     }
+}
+@media screen and (min-width: 786px) {
+     .headerContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+  
+}
