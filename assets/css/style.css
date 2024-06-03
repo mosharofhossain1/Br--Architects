@@ -14,7 +14,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
-    max-width: 1170px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
@@ -39,7 +39,7 @@ header{
     font-size: 20px;
 }
 .headerLogo .headerTitle{
-    color: rgb(38, 38, 38);;
+    color: rgb(38, 38, 38);
     font-weight: normal;
     font-size: 20px;
 }
@@ -95,3 +95,139 @@ header{
 }
  
 /* Banner Section end */
+/* Prject section start */
+.projectSection{
+    background-color: #fff;
+    margin-top: 50px;
+}
+.projectDetailsContainer{
+    padding: 15px;
+}
+.projetcSectionTitle{
+    padding: 15px;
+    font-size: 25px;
+    font-weight: normal;
+    color:  rgb(38, 38, 38);
+}
+.project{
+    margin: 20px 0px;
+    position: relative;
+   
+}
+.project img{
+    max-width: 100%;
+    height: auto;
+}
+.projectTitle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+     
+}
+/* Prject section end */
+
+/* About Section start */
+.aboutDescSection{
+    padding: 15px;
+}
+.aboutDescSection .aboutTitle{
+    color: rgb(38, 38, 38);
+    font-size: 25px;
+    font-weight: normal;
+    padding: 15px 0px;
+}
+.aboutDes{
+    text-align: justify;
+    margin-top: 20px;
+}
+.member{
+    padding: 15px;
+}
+.memberImg img{
+    max-width: 100%;
+    height: auto;
+}
+.memberName{
+    color: rgb(38, 38, 38);
+    font-size: 20px;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+.temMembersContainer .post{
+    opacity: .60;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+.memberBio{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(38, 38, 38);
+    margin: 10px 0px;
+}
+.cbtn{
+    background-color: #ccc;
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: none;
+    color: #262626;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cbtn:hover{
+    background-color: #D6D8D9;
+}
+/* About Section end */
+
+/* Contact Section start */
+.contactSection{
+    padding: 15px;
+}
+.contactTitle{
+    font-size: 25px;
+    color: rgb(38, 38, 38);
+    margin: 20px 0px;
+    font-weight: normal;
+}
+.contactField input{
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0px;
+    outline: none;
+}
+.contactField button{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+.contactField button:hover{
+    background-color: #ccc;
+    color: black;
+}
+/* Contact Section end */
+/* map */
+.mapContainer img {
+    max-width: 100%;
+    height: auto;
+    opacity: .6;
+}
+footer{
+    padding: 20px;
+    background-color: black;
+}
+footer p{
+    text-align: center;
+    font-size: 16px;
+    opacity: .9;
+    color: white;
+}
